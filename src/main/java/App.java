@@ -22,6 +22,11 @@ public class App {
       return new ModelAndView(model, layout);
     }, new VelocityTemplateEngine());
 
+    get("/contact", (request, response) -> {
+      HashMap model = new HashMap();
+      model.put("template", "templates/contact.vtl");
+      return new ModelAndView(model, layout);
+    }, new VelocityTemplateEngine());
 
   }
 }
