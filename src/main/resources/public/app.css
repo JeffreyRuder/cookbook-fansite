@@ -1,0 +1,24 @@
+.book {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 6px;
+}
+
+.cover {
+  margin: 20px 0;
+}
+
+.jumbotron {
+  background: url(/img/carrots-min.jpg) no-repeat center center;
+}
+
+.jumbotron .jumbotext {
+  background-color: rgba(200, 200, 200, 0.6);
+  border: 1px solid;
+  border-radius: 6px;
+}
+
+.navbar-title {
+  color: #337ab7;
+}

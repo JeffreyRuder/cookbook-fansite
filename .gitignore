@@ -1,0 +1,4 @@
+mockups/
+*.class
+build/
+.gradle/
